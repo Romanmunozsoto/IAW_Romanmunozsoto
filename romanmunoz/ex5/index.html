@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercici 5 - Càlcul IVA</title>
+</head>
+<body>
+    <h2>Calcula el preu amb IVA</h2>
+    <form action="iva.php" method="post">
+        <label>Preu (€): <input type="number" step="0.01" name="preu" required></label><br><br>
+        <label>Tipus d'IVA:</label><br>
+        <select name="iva">
+            <option value="21">21%</option>
+            <option value="10">10%</option>
+            <option value="4">4%</option>
+        </select><br><br>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
