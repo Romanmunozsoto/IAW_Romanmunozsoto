@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Botiga</title>
+</head>
+<body>
+<h2>Botiga</h2>
+<form action="botiga.php" method="POST">
+<label>Producte 1:</label>
+<input type="text" name="nom1" required>
+<label>Preu 1:</label>
+<input type="number" name="preu1" required>
+<label>Quantitat 1:</label>
+<input type="number" name="quantitat1" min="1" required><br><br>
+
+<label>Producte 2:</label>
+<input type="text" name="nom2" required>
+<label>Preu 2:</label>
+<input type="number" name="preu2" required>
+<label>Quantitat 2:</label>
+<input type="number" name="quantitat2" min="1" required><br><br>
+
+<button type="submit">Afegir a la cistella</button>
+</form>
+
+<br>
+<a href="resum_botiga.php">Finalitzar compra</a>
+</body>
+</html>
